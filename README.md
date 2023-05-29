@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1" alt="StringGen">
+  <img src="https://te.legra.ph/file/dd867de0d5148494bddaa.jpg" alt="StringGen">
 
  
 ### 🤤 ғᴇᴀᴛᴜʀᴇs
