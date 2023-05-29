@@ -27,13 +27,15 @@ sᴇssɪᴏɴ ɴᴀᴍᴇ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [@�
                 ],
                 [
                     InlineKeyboardButton("🦋 sᴜᴘᴘᴏʀᴛ ¹ 🦋", url="https://t.me/agoraworld"),
-                    InlineKeyboardButton("🦋 sᴜᴘᴘᴏʀᴛ ² 🦋", url="https://t.me/agorasmuseum")
-                    
+                    InlineKeyboardButton("🦋 sᴜᴘᴘᴏʀᴛ ² 🦋", url="https://t.me/agorasmuseum") 
+                ],
+                [
                     InlineKeyboardButton("🦋 ᴜᴘᴅᴀᴛᴇs 🦋", url="https://t.me/Teamagora"),
                     InlineKeyboardButton("🦋 ᴀɢᴏʀᴀ ʀᴇᴘᴏs 🦋", url="https://t.me/agorarepos")
-                    
+                ], 
+                [
                     InlineKeyboardButton("🦋 ᴏᴡɴᴇʀ 🦋", url="https://user?id={OWNER_ID}"),
-                ]
+                ],
             ]
         ),
         disable_web_page_preview=True,
