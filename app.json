@@ -1,0 +1,42 @@
+{
+  "name": "🦋 sᴇssɪᴏɴ ɴᴀᴍᴇ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ 🦋",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://te.legra.ph/file/4a965d62670bf1c228639.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "🦋 ɢᴇᴛ ᴛʜɪs ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ 🦋",
+            "required": true
+        },  
+        "MUST_JOIN": {
+            "description": "🦋 ᴛʜᴇ ᴜsᴇʀɴᴀᴍᴇ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ / ᴄʜᴀɴɴᴇʟ(ᴡɪᴛʜᴏᴜᴛ @) 🦋",
+            "required": true      
+        }, 
+        "MONGO_URL": {
+            "description": "🦋 ᴍᴏɴɢᴏ ᴅʙ ᴜʀʟ - ᴛᴜᴛᴏʀɪᴀʟ ɪs ᴏɴ @ᴛᴇᴀᴍᴀɢᴏʀᴀ 🦋",
+            "required": true
+        },
+        "API_ID": {
+            "description": "🦋 ᴀᴘɪ ɪᴅ - ɢᴇɴᴇʀᴀᴛᴇ ғʀᴏᴍ @ᴀɢᴏʀᴀxsᴄʀᴀᴘᴇʀ_ʙᴏᴛ 🦋",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "🦋 ᴏᴡɴᴇʀ ɪᴅ - ɢᴇɴᴇʀᴀᴛᴇ ɪᴛ ᴜsɪɴɢ ʙʏ @ᴀɢᴏʀᴀxʀᴏʙᴏᴛ. 🦋",
+            "required": true
+        }, 
+        "API_HASH": {
+            "description": "🦋 ᴀᴘɪ ɪᴅ - ɢᴇɴᴇʀᴀᴛᴇ ғʀᴏᴍ @ᴀɢᴏʀᴀxsᴄʀᴀᴘᴇʀ_ʙᴏᴛ 🦋",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
